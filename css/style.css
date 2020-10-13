@@ -1,0 +1,119 @@
+
+
+
+.bg-box{width: 100%;height: 100%;background-color: white;}
+
+.circle-yellow{width: 1180px; height: 1180px; background-color: #fff868; border-radius: 50%; position: absolute; left: -250px; top: -300px}
+.circle-green{width: 960px; height: 960px; background-color: #8df799; border-radius: 50%; position: absolute;right:-150px; top: -350px}
+.circle-blue{width: 650px; height: 650px; background-color: #3a6bed; border-radius: 50%; position: absolute; left: 580px; top: 270px}
+.circle-purple{width: 1000px; height: 1000px; background-color: #402383; border-radius: 50%; position: absolute; bottom: -700px; left: 100px}
+.circle-red{width: 750px; height: 750px; background-color: #e6514a; border-radius: 50%; position: absolute; bottom:-300px; right: -200px}
+
+
+.img1{width: 130px; position: absolute; left: 51px; top: 250px}
+.img2{width: 110px; position: absolute; left: 176px; top: 284px}
+
+h1{font-family: 'Ranchers', cursive; font-size: 14rem; color:#3a6bed ; position: absolute; left: 55px; top: 20px}
+h2{font-family: 'Ranchers', cursive; font-size: 14rem; color:white ; position: absolute;  right: 60px; bottom: 20px;}
+p{font-family: 'Roboto', sans-serif; font-size: 2rem; color: white; position: absolute; left: 55px; top: 500px}
+
+
+
+.c-y{ 
+
+	animation-name: y;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+	@-webkit-keyframes y{
+		0%{transform: scale(1.0); }	
+		50%{transform: scale(0.5);} 
+		100%{ transform: scale(1.0);}
+	}
+
+
+
+	.c-g{ 
+
+	animation-name: g;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+	@-webkit-keyframes g{
+		0%{transform: scale(1.0); }		
+		50%{transform: scale(0.5);} 
+		100%{ transform: scale(1.0);}
+	}
+
+
+.c-b{ 
+
+	animation-name: b;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+
+	@-webkit-keyframes b{
+		0%{transform: scale(1.0); }
+		
+
+		50%{transform: scale(2.5);} 
+
+		100%{ transform: scale(1.0);}
+	}
+
+
+
+.c-p{ 
+
+	animation-name: p;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+
+	@-webkit-keyframes p{
+		0%{transform: scale(1.0); }
+		
+
+		50%{transform: scale(1.2);} 
+
+		100%{ transform: scale(1.0);}
+	}
+
+
+
+.c-r{ 
+
+	animation-name: r;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+
+	@-webkit-keyframes r{
+		0%{transform: scale(1.0); }
+		
+
+		50%{transform: scale(2.0);} 
+
+		100%{ transform: scale(1.0);}
+	}
+
+
